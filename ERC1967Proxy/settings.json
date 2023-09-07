@@ -1,0 +1,34 @@
+{
+	"remappings": [
+		"@opengsn/=node_modules/@opengsn/",
+		"@openzeppelin/=node_modules/@openzeppelin/",
+		"@uniswap/=node_modules/@uniswap/",
+		"base64-sol/=node_modules/base64-sol/",
+		"ds-test/=lib/forge-std/lib/ds-test/src/",
+		"forge-std/=lib/forge-std/src/",
+		"hardhat/=node_modules/hardhat/",
+		"solady/=node_modules/solady/",
+		"solmate/=node_modules/solmate/"
+	],
+	"optimizer": {
+		"enabled": true,
+		"runs": 256
+	},
+	"metadata": {
+		"bytecodeHash": "ipfs"
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"evmVersion": "london",
+	"libraries": {}
+}
